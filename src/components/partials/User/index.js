@@ -14,8 +14,6 @@ function User(props) {
         }
     }, [data]);
 
-    console.log(userData);
-
     return (
         <section className="w-8/12 mx-auto mt-16 ">
             <CardDetail data={userData} />
